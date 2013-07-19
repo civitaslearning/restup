@@ -6,8 +6,24 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": "",
-  "author": "Dan Harbin",
+  "repository": {
+  	"type": "git",
+  	"url": "https://github.com/civitaslearning/restup.git"
+  },
+  "contributors": [
+  	{
+  		"name": "Dan Harbin",
+  		"web": "https://github.com/RasterBurn"
+	}
+  ],
+  "keywords": [
+    "postgres",
+    "pg",
+    "swig",
+    "template",
+    "sql"
+  ],
+  "author": "Dan Harbin <dan.harbin@civitaslearning.com>",
   "dependencies": {
     "underscore": "~1.5.1",
     "q": "~0.9.6"
@@ -15,5 +31,6 @@
   "devDependencies": {
     "chai": "*",
     "mocha": "*"
-  }
+  },
+  "license": "MIT"
 }
