@@ -1,8 +1,6 @@
 var should  = require('chai').should(),
 	restUp  = require('../index'),
 	chai    = require('chai'),
-	express = require('express'),
-	request = require('supertest'),
 	METHODS = require('../lib/utils').METHODS,
 	util    = require('util'),
 	Q       = require('q'),

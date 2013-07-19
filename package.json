@@ -14,8 +14,6 @@
   },
   "devDependencies": {
     "chai": "*",
-    "mocha": "*",
-    "express": "~3.3.4",
-    "supertest": "~0.7.1"
+    "mocha": "*"
   }
 }
