@@ -102,4 +102,6 @@ describe('the api', function () {
 			done();
 		});
 	});
+
+	it('should allow users to define custom methods');
 });
